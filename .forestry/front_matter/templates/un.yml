@@ -1,4 +1,22 @@
 ---
 label: un
 hide_body: false
-fields: []
+fields:
+- name: premiere
+  type: file
+  config:
+    maxSize: 250
+  label: premiere
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
+- name: blok
+  type: blocks
+  label: blok
+  template_types: []
+  config:
+    min: 
+    max: 
